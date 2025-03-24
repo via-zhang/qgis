@@ -1,5 +1,4 @@
 baseURL = 'https://via-zhang.github.io/qgis'
-languageCode = 'en-us'
 title = 'QGIS Activities'
 theme = 'hugo-theme-relearn'
 

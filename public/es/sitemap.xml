@@ -25,10 +25,10 @@
     <xhtml:link rel="alternate" hreflang="es" href="http://localhost:1313/qgis/es/categories/index.html" />
   </url>
   <url>
-    <loc>http://localhost:1313/qgis/es/spatial-data/qgis-intro/_qgis-intro/index.html</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/qgis/spatial-data/qgis-intro/_qgis-intro/index.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/qgis/spatial-data/qgis-intro/_qgis-intro/index.html" />
-    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:1313/qgis/es/spatial-data/qgis-intro/_qgis-intro/index.html" />
+    <loc>http://localhost:1313/qgis/es/spatial-data/vector-raster/_vector-raster/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/qgis/spatial-data/vector-raster/_vector-raster/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/qgis/spatial-data/vector-raster/_vector-raster/index.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:1313/qgis/es/spatial-data/vector-raster/_vector-raster/index.html" />
   </url>
   <url>
     <loc>http://localhost:1313/qgis/es/categories/reference/index.html</loc>
