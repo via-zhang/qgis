@@ -1,0 +1,23 @@
+baseURL = 'https://via-zhang.github.io/qgis'
+languageCode = 'en-us'
+title = 'QGIS Activities'
+theme = 'hugo-theme-relearn'
+
+defaultContentLanguage = 'en'
+
+[languages]
+  [languages.en]
+    languageCode = 'en'
+    languageName = 'English'
+    title = 'QGIS Activities'
+    weight = 1
+
+  [languages.es]
+    languageCode = 'es'
+    languageName = 'Español'
+    title = 'Actividades QGIS'
+    weight = 2
+
+[params]
+  themeVariant = ['blue', 'zen-dark']
+  hideAuthorDate = true

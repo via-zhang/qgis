@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/qgis/spatial-data/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/qgis/spatial-data/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/qgis/spatial-data/index.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:1313/qgis/es/spatial-data/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/qgis/categories/activities/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/qgis/categories/activities/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/qgis/categories/activities/index.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:1313/qgis/es/categories/activities/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/qgis/categories/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/qgis/categories/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/qgis/categories/index.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:1313/qgis/es/categories/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/qgis/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/qgis/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/qgis/index.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:1313/qgis/es/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/qgis/categories/reference/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/qgis/categories/reference/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/qgis/categories/reference/index.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:1313/qgis/es/categories/reference/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/qgis/tags/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/qgis/tags/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/qgis/tags/index.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:1313/qgis/es/tags/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/qgis/spatial-data/qgis-intro/_qgis-intro/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/qgis/spatial-data/qgis-intro/_qgis-intro/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/qgis/spatial-data/qgis-intro/_qgis-intro/index.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:1313/qgis/es/spatial-data/qgis-intro/_qgis-intro/index.html" />
+  </url>
+</urlset>
