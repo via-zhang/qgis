@@ -20,6 +20,7 @@
     <meta property="og:image" content="http://localhost:1313/qgis-act/spatial-data/vector-raster/id_features.png">
     <meta itemprop="name" content="Datos vectoriales y rasterizados :: Actividades QGIS">
     <meta itemprop="description" content="Cómo visualizar datos vectoriales y ráster en QGIS">
+    <meta itemprop="wordCount" content="1222">
     <meta itemprop="image" content="http://localhost:1313/qgis-act/spatial-data/vector-raster/id_features.png">
     <meta itemprop="keywords" content="Activities">
     <title>Datos vectoriales y rasterizados :: Actividades QGIS</title>
@@ -27,17 +28,17 @@
     <link href="http://localhost:1313/qgis-act/spatial-data/vector-raster/index.html" rel="alternate" hreflang="en">
     <link href="http://localhost:1313/qgis-act/es/spatial-data/vector-raster/index.html" rel="alternate" hreflang="es">
     <link href="/qgis-act/es/spatial-data/vector-raster/index.xml" rel="alternate" type="application/rss+xml" title="Datos vectoriales y rasterizados :: Actividades QGIS"><link rel="icon" href="images/favicon.png" type="image/png">
-    <link href="/qgis-act/fonts/fontawesome/css/fontawesome-all.min.css?1742800058" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/qgis-act/fonts/fontawesome/css/fontawesome-all.min.css?1742800058" rel="stylesheet"></noscript>
-    <link href="/qgis-act/css/perfect-scrollbar/perfect-scrollbar.min.css?1742800058" rel="stylesheet">
-    <link href="/qgis-act/css/theme.css?1742800058" rel="stylesheet">
-    <link href="/qgis-act/css/format-html.css?1742800058" rel="stylesheet" id="R-format-style">
-    <link href="/qgis-act/css/auto-complete/auto-complete.min.css?1742800058" rel="stylesheet">
-    <script src="/qgis-act/js/auto-complete/auto-complete.min.js?1742800058" defer></script>
-    <script src="/qgis-act/js/lunr/lunr.min.js?1742800058" defer></script>
-    <script src="/qgis-act/js/lunr/lunr.stemmer.support.min.js?1742800058" defer></script>
-    <script src="/qgis-act/js/lunr/lunr.multi.min.js?1742800058" defer></script>
-    <script src="/qgis-act/js/lunr/lunr.es.min.js?1742800058" defer></script>
-    <script src="/qgis-act/js/search.js?1742800058" defer></script>
+    <link href="/qgis-act/fonts/fontawesome/css/fontawesome-all.min.css?1742805927" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/qgis-act/fonts/fontawesome/css/fontawesome-all.min.css?1742805927" rel="stylesheet"></noscript>
+    <link href="/qgis-act/css/perfect-scrollbar/perfect-scrollbar.min.css?1742805927" rel="stylesheet">
+    <link href="/qgis-act/css/theme.css?1742805927" rel="stylesheet">
+    <link href="/qgis-act/css/format-html.css?1742805927" rel="stylesheet" id="R-format-style">
+    <link href="/qgis-act/css/auto-complete/auto-complete.min.css?1742805927" rel="stylesheet">
+    <script src="/qgis-act/js/auto-complete/auto-complete.min.js?1742805927" defer></script>
+    <script src="/qgis-act/js/lunr/lunr.min.js?1742805927" defer></script>
+    <script src="/qgis-act/js/lunr/lunr.stemmer.support.min.js?1742805927" defer></script>
+    <script src="/qgis-act/js/lunr/lunr.multi.min.js?1742805927" defer></script>
+    <script src="/qgis-act/js/lunr/lunr.es.min.js?1742805927" defer></script>
+    <script src="/qgis-act/js/search.js?1742805927" defer></script>
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -47,7 +48,7 @@
       window.relearn.relBaseUri='..\/..\/..\/..';
       window.relearn.absBaseUri='http:\/\/localhost:1313\/qgis-act';
       window.relearn.contentLangs=['es'];
-      window.relearn.index_js_url="/qgis-act/searchindex.es.js?1742800058";
+      window.relearn.index_js_url="/qgis-act/searchindex.es.js?1742805927";
       window.relearn.disableAnchorCopy=false;
       window.relearn.disableAnchorScrolling=false;
       window.relearn.disableInlineCopyToClipboard=false;
@@ -101,7 +102,30 @@
             </div>
             <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Tabla de contenido (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
               <div class="topbar-content">
-                <div class="topbar-content-wrapper"> 
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li><a href="#cargar-los-datos">Cargar los datos</a>
+      <ul>
+        <li><a href="#descargar">Descargar</a></li>
+      </ul>
+    </li>
+    <li><a href="#datos-vectoriales">Datos Vectoriales</a>
+      <ul>
+        <li><a href="#añadir-a-qgis">Añadir a QGIS</a></li>
+        <li><a href="#puntos">Puntos</a></li>
+        <li><a href="#líneas">Líneas</a></li>
+        <li><a href="#polígonos">Polígonos</a></li>
+      </ul>
+    </li>
+    <li><a href="#datos-rasterizados">Datos rasterizados</a>
+      <ul>
+        <li><a href="#añadir-a-qgis-1">Añadir a QGIS</a></li>
+        <li><a href="#explorar-antes-y-después-del-incendio">Explorar antes y después del incendio.</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
                 </div>
               </div>
             </div>
@@ -136,6 +160,238 @@
 
 <h1 id="datos-vectoriales-y-rasterizados">Datos vectoriales y rasterizados</h1>
 
+<h2 id="cargar-los-datos">Cargar los datos</h2>
+<h3 id="descargar">Descargar</h3>
+<p>Haga clic aquí para descargar la carpeta <strong>fires</strong> de Google Drive:
+<span class="btn cstyle interactive transparent"><a href="https://drive.google.com/drive/folders/1H1FcMVlTV2m5IdxUvTLFW6cKJTZ3YGxo?usp=drive_link" rel="external" target="_blank"><i class="fa-fw fas fa-download"></i> <span class="title">Descargar los datos</span></a></span></p>
+<p>Acerca de los datos:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Nombre del archivo</th>
+          <th>Descripción</th>
+          <th>Fuente</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>puntos_de_incendios</strong></td>
+          <td>Puntos de incendios desde 1900 hasta los más recientes</td>
+          <td><a href="https://www.fire.ca.gov/incidents" rel="external" target="_blank">CAL FIRE</a></td>
+      </tr>
+      <tr>
+          <td><strong>roads</strong></td>
+          <td>Líneas de las principales carreteras de California</td>
+          <td><a href="https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html" rel="external" target="_blank">US Census Bureau TIGER/Line</a></td>
+      </tr>
+      <tr>
+          <td><strong>fire_perimeters</strong></td>
+          <td>Líneas de la zona quemada para 2025 incendios</td>
+          <td><a href="https://hub-calfire-forestry.hub.arcgis.com/datasets/CALFIRE-Forestry::wfigs-2025-wildfire-perimeters" rel="external" target="_blank">Wildland Fire Interagency Geospatial Services (WFIGS) Group</a></td>
+      </tr>
+      <tr>
+          <td><strong>satellite_[date]</strong></td>
+          <td>Imágenes de satélite de tres días diferentes del incendio de Palisades: 28 de noviembre de 2024; 12 de enero de 2025; 8 de marzo de 2025</td>
+          <td><a href="https://browser.dataspace.copernicus.eu/" rel="external" target="_blank">Sentinel-2 del Navegador Copernicus</a></td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="datos-vectoriales">Datos Vectoriales</h2>
+<p>Vamos a visualizar puntos de fuego, líneas de carreteras y áreas quemadas de incendios en Los Ángeles.</p>
+
+<details open class=" box cstyle notices info">
+  <summary class="box-label" tabindex="-1">
+    <i class="fa-fw fas fa-info-circle"></i> 
+    Información
+  </summary>
+  <div class="box-content">
+<p>«Datos vectoriales» se refiere a localizaciones, lugares u otras partes de la superficie terrestre que se almacenan como puntos, líneas y polígonos.</p>
+  </div>
+</details>
+<h3 id="añadir-a-qgis">Añadir a QGIS</h3>
+<p>Abre un archivo QGIS y, opcionalmente, añade OpenStreetMap como mapa base y establece el sistema de referencia de coordenadas (CRS) en EPSG:2229.
+
+
+<figure class="video">
+<video controls preload="metadata" width="100%"   >
+<source src="/qgis-act/spatial-data/vector-raster/1_load_data.mp4" type="video/mp4">
+</video>
+</figure></p>
+<ol>
+<li>Vaya a Capa &gt; Añadir capa &gt; Añadir capa vectorial&hellip;.</li>
+<li>Haga clic en los tres puntos &hellip; junto a Conjunto(s) de datos vectoriales</li>
+<li>Busque la carpeta <strong>fires</strong> que ha descargado, vaya a la carpeta <strong>vector</strong> y haga clic y arrastre para seleccionar los 3 archivos. También puede seleccionar el primer archivo y, a continuación, pulse Mayús mientras hace clic en el último archivo para seleccionar los 3</li>
+<li>Haga clic en «Añadir» y luego en «Cerrar»</li>
+<li>El mapa debe tener este aspecto, pero es posible que vea diferentes colores o un orden diferente
+<a href="#R-image-cce52d2d6b0a4bfd4a2fee96b781e4d9" class="lightbox-link"><img alt="Captura de pantalla de QGIS con los datos" class="lazy lightbox figure-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/load_data.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-cce52d2d6b0a4bfd4a2fee96b781e4d9"><img alt="Captura de pantalla de QGIS con los datos" class="lazy lightbox lightbox-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/load_data.png"></a></li>
+</ol>
+
+<details open class=" box cstyle notices important">
+  <summary class="box-label" tabindex="-1">
+    <i class="fa-fw fas fa-bolt"></i> 
+    Importante
+  </summary>
+  <div class="box-content">
+<p>Recuerde guardar el archivo en Proyecto &gt; Guardar.</p>
+  </div>
+</details>
+<h3 id="puntos">Puntos</h3>
+<p>Cambiemos los puntos por iconos de incendios y filtremos para que sólo aparezcan los incendios ocurridos en 2024 o 2025.
+
+
+<figure class="video">
+<video controls preload="metadata" width="100%"   >
+<source src="/qgis-act/spatial-data/vector-raster/2_visualize_point.mp4" type="video/mp4">
+</video>
+</figure></p>
+<ol>
+<li>Haga clic derecho en la capa fire_points y clic izquierdo en «Filtrar&hellip;»</li>
+<li>En el cuadro de texto situado debajo de «Proporcionar expresión de filtro específica», pegue lo siguiente:</li>
+</ol>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>&#34;incident_date_created&#34; &gt; &#39;2024-01-01&#39;</code></pre></div>
+<ol start="3">
+<li>Haga clic en «Aceptar» y el mapa mostrará los incendios ocurridos después del 1 de enero de 2024.</li>
+<li>Haga clic con el botón derecho del ratón en la capa fire_points y seleccione «Propiedades»</li>
+<li>Haga clic en «Simbología» a la izquierda</li>
+<li>En «Marcador» haga clic en «Marcador simple»</li>
+<li>Cambia el «Tamaño» de 2 a 5 para que los puntos sean más grandes</li>
+<li>Cambia el «Color de relleno» a rojo</li>
+<li>Al lado de «Tipo de capa del símbolo» haz clic donde dice «Marcador simple» y cámbialo a «Marcador SVG»</li>
+<li>Desplácese hasta la parte inferior y escriba «fuego» en el cuadro de búsqueda en Imágenes SVG</li>
+<li>Haga clic en uno de los iconos de fuego que más te gusten</li>
+<li>Haga clic en «Aceptar»
+<a href="#R-image-8e296714aabefd4b3824886928096fe2" class="lightbox-link"><img alt="Captura de pantalla de QGIS con los puntos de fuego" class="lazy lightbox figure-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/fire_points.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8e296714aabefd4b3824886928096fe2"><img alt="Captura de pantalla de QGIS con los puntos de fuego" class="lazy lightbox lightbox-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/fire_points.png"></a></li>
+</ol>
+<h4 id="ver-información-sobre-incendios">Ver información sobre incendios</h4>
+
+
+<figure class="video">
+<video controls preload="metadata" width="100%"   >
+<source src="/qgis-act/spatial-data/vector-raster/3_view_data.mp4" type="video/mp4">
+</video>
+</figure>
+<ol>
+<li>Haga clic en el icono «Identificar objetos espaciales» en la parte superior de QGIS <a href="#R-image-bc0c750f31d7bd69a61da68f6d73970b" class="lightbox-link"><img alt="Identificar objetos espaciales" class="lazy lightbox figure-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/id_icon.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-bc0c750f31d7bd69a61da68f6d73970b"><img alt="Identificar objetos espaciales" class="lazy lightbox lightbox-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/id_icon.png"></a>
+<a href="#R-image-8542f7ffc3d7b01a48977713f5113de0" class="lightbox-link"><img alt="Identificar objetos espaciales" class="lazy lightbox figure-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/id_features.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8542f7ffc3d7b01a48977713f5113de0"><img alt="Identificar objetos espaciales" class="lazy lightbox lightbox-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/id_features.png"></a></li>
+<li>Haga clic izquierdo en la capa fire_points para seleccionarla</li>
+<li>Haga clic en cualquier punto de incendio del mapa y se abrirá una pestaña con información sobre ese incendio. Cuando se utiliza la herramienta Identificar objetos espaciales, no se puede utilizar el ratón para moverse por el mapa, sólo se puede hacer clic en los puntos</li>
+<li>Haga clic en el icono «Pan Map» en la parte superior de QGIS para volver a la configuración por defecto, para que pueda hacer clic y moverse por el mapa de nuevo <a href="#R-image-8271799e5d557a48182a4eb9f87caa14" class="lightbox-link"><img alt="Identify Features tool" class="lazy lightbox figure-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/pan_map_icon.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8271799e5d557a48182a4eb9f87caa14"><img alt="Identify Features tool" class="lazy lightbox lightbox-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/pan_map_icon.png"></a>
+<a href="#R-image-981e2d0f1305474e4bffb2f269b00238" class="lightbox-link"><img alt="Captura de pantalla de QGIS con la herramienta Mapa panorámico" class="lazy lightbox figure-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/pan_map.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-981e2d0f1305474e4bffb2f269b00238"><img alt="Captura de pantalla de QGIS con la herramienta Mapa panorámico" class="lazy lightbox lightbox-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/pan_map.png"></a></li>
+</ol>
+
+<details open class=" box cstyle notices tip">
+  <summary class="box-label" tabindex="-1">
+    <i class="fa-fw fas fa-lightbulb"></i> 
+    Consejo
+  </summary>
+  <div class="box-content">
+<p>La herramienta «Identificar objetos espaciales» sólo funciona en la capa que haya seleccionado (haciendo clic con el botón izquierdo del ratón sobre ella). Por ejemplo, hemos seleccionado la capa fire_points para ver más información sobre cada punto de incendio. También puede hacer clic con el botón izquierdo del ratón en roads.shp para seleccionarla y, a continuación, hacer clic en cualquier carretera para mostrar información sobre ella. También puede hacer lo mismo con la capa fire_perimeters.</p>
+  </div>
+</details>
+<h3 id="líneas">Líneas</h3>
+<p>Cambiemos el grosor y la opacidad de las líneas.
+
+
+<figure class="video">
+<video controls preload="metadata" width="100%"   >
+<source src="/qgis-act/spatial-data/vector-raster/4_visualize_roads.mp4" type="video/mp4">
+</video>
+</figure></p>
+<ol>
+<li>Haga clic con el botón derecho del ratón en la capa roads.shp y seleccione «Propiedades».</li>
+<li>Haga clic en «Simbología» a la izquierda si no está ya seleccionada</li>
+<li>Cambie el color a un gris claro (u otro color que desee)</li>
+<li>Cambia la opacidad al 50.0% (o prueba otros porcentajes)</li>
+<li>Cambia el Ancho a 1 (o prueba otros anchos)</li>
+<li>Haga clic en «Aceptar».</li>
+<li>(Opcional) Si quieres cambiar el orden de las capas, puedes mover una capa haciendo clic en ella y arrastrándola. Por ejemplo, puede hacer clic en la capa roads.shp y, manteniendo pulsado el ratón, arrastrarla hacia abajo para que quede por debajo de las capas fire_points y fire_perimeters, pero por encima de OSM Standard
+<a href="#R-image-70fa54f28f8db7944e55a18e84be42a9" class="lightbox-link"><img alt="Captura de pantalla de QGIS con las carreteras" class="lazy lightbox figure-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/roads.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-70fa54f28f8db7944e55a18e84be42a9"><img alt="Captura de pantalla de QGIS con las carreteras" class="lazy lightbox lightbox-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/roads.png"></a></li>
+</ol>
+
+<details open class=" box cstyle notices important">
+  <summary class="box-label" tabindex="-1">
+    <i class="fa-fw fas fa-bolt"></i> 
+    Importante
+  </summary>
+  <div class="box-content">
+<p>Recuerda guardar el archivo en Proyecto &gt; Guardar.</p>
+  </div>
+</details>
+<h3 id="polígonos">Polígonos</h3>
+<p>Cambiemos el color y la opacidad de las áreas quemadas.
+
+
+<figure class="video">
+<video controls preload="metadata" width="100%"   >
+<source src="/qgis-act/spatial-data/vector-raster/5_visualize_polygons.mp4" type="video/mp4">
+</video>
+</figure></p>
+<ol>
+<li>Haga clic con el botón derecho en la capa fire_perimeters y seleccione «Propiedades»</li>
+<li>Haga clic en «Simbología» a la izquierda si no está ya seleccionada</li>
+<li>Cambie el color a rojo (u otro color que desee)</li>
+<li>Cambia la opacidad al 20.0% (o prueba otros porcentajes)</li>
+<li>Haga clic en «Aceptar»
+<a href="#R-image-0d316bad59c681a7b19cabbee0e92877" class="lightbox-link"><img alt="Captura de pantalla de QGIS con los polígonos" class="lazy lightbox figure-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/fire_perimeters.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-0d316bad59c681a7b19cabbee0e92877"><img alt="Captura de pantalla de QGIS con los polígonos" class="lazy lightbox lightbox-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/fire_perimeters.png"></a></li>
+</ol>
+<h2 id="datos-rasterizados">Datos rasterizados</h2>
+<p>Vamos a visualizar imágenes de satélite de Sentinel-2 de antes y después del incendio de Palisades, un devastador incendio que comenzó a quemar Los Ángeles el 7 de enero de 2025.</p>
+
+<details open class=" box cstyle notices info">
+  <summary class="box-label" tabindex="-1">
+    <i class="fa-fw fas fa-info-circle"></i> 
+    Información
+  </summary>
+  <div class="box-content">
+<p>Los «datos ráster» se refieren a áreas de la superficie terrestre que se almacenan como valores en una cuadrícula (píxeles).</p>
+  </div>
+</details>
+<h3 id="añadir-a-qgis-1">Añadir a QGIS</h3>
+
+
+<figure class="video">
+<video controls preload="metadata" width="100%"   >
+<source src="/qgis-act/spatial-data/vector-raster/6_visualize_raster.mp4" type="video/mp4">
+</video>
+</figure>
+<ol>
+<li>Vaya a Capa &gt; Añadir capa &gt; Añadir capa ráster&hellip;.</li>
+<li>Haga clic en los tres puntos &hellip; junto a Conjunto(s) de datos ráster</li>
+<li>Busque la carpeta <strong>fires</strong> que ha descargado, vaya a la carpeta <strong>raster</strong> y haga clic y arrastre para seleccionar los 3 archivos. También puede seleccionar el primer archivo y, a continuación, pulse Mayús mientras hace clic en el último archivo para seleccionar los 3</li>
+<li>Haga clic en «Añadir» y luego en «Cerrar»</li>
+<li>Mueva el roads.shp, fire_perimeteres, y fire_points por encima de las 3 capas de satélite</li>
+<li>Opcional: Mueve <strong>satellite_mar25</strong> por encima de las otras dos capas de satélite, <strong>satellite_jan25</strong> por debajo y, por último, <strong>satellite_nov24</strong>.</li>
+<li>Haga clic con el botón derecho del ratón en la primera capa de satélite (<strong>satellite_mar25</strong>) y haz clic en la primera opción, «Zoom a la capa(s)»</li>
+<li>El mapa debería tener el siguiente aspecto
+<a href="#R-image-a8fd2874ddfa08fdfdca3fb5495bfd5c" class="lightbox-link"><img alt="Captura de pantalla de QGIS con las imágenes de satélite" class="lazy lightbox figure-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/add_raster.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a8fd2874ddfa08fdfdca3fb5495bfd5c"><img alt="Captura de pantalla de QGIS con las imágenes de satélite" class="lazy lightbox lightbox-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/add_raster.png"></a></li>
+</ol>
+<h3 id="explorar-antes-y-después-del-incendio">Explorar antes y después del incendio.</h3>
+<ol start="9">
+<li>Haga clic en la casilla situada junto a fire_perimeters para hacer invisible la capa. Esto facilita la visualización de la imagen de satélite</li>
+<li>Haga clic en la casilla junto a <strong>satellite_mar25</strong> para compararla con la imagen de satélite de enero de 2025, cuando el incendio de Palisades estaba activo. Puede hacer clic en la casilla de verificación varias veces para desactivarla y activarla de nuevo para comparar cómo se veía la tierra entre enero y marzo</li>
+<li>Haz invisible la capa <strong>satellite_mar25</strong> desmarcándola de nuevo si es necesario. Ahora, sólo <strong>satellite_jan25</strong> y <strong>satellite_nov24</strong> deben estar marcadas</li>
+<li>Haga clic en la casilla junto a <strong>satellite_jan25</strong> para compararla con la imagen de satélite de noviembre de 2024 antes de que el incendio de Palisades comenzara a arder. Como antes, puedes hacer clic en la casilla de verificación varias veces para apagarla y encenderla de nuevo para comparar cómo se veía el terreno</li>
+</ol>
+
+<details class=" box cstyle notices note expand">
+  <summary class="box-label">
+    <i class="expander-icon fa-fw fas fa-chevron-right"></i> 
+    <i class="fa-fw fas fa-exclamation-circle"></i> 
+    ¿Puedes detectar otros incendios además de los de Palisades?
+  </summary>
+  <div class="box-content">
+<p>El incendio de Kenneth (extinguido el 12 de enero de 2025 y que quemó más de 1000 acres) está en la parte superior izquierda de la imagen, y el incendio de Woodley (8 de enero de 2025; quemó 30 acres) está en la parte superior derecha de la imagen.</p>
+  </div>
+</details>
 
   <footer class="footline">
 <div class="R-taxonomy taxonomy-categories cstyle" title="Categorías" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
@@ -237,8 +493,8 @@
 <div id="R-footer"><p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p></div>
       </div>
     </aside>
-    <script src="/qgis-act/js/clipboard/clipboard.min.js?1742800058" defer></script>
-    <script src="/qgis-act/js/perfect-scrollbar/perfect-scrollbar.min.js?1742800058" defer></script>
-    <script src="/qgis-act/js/theme.js?1742800058" defer></script>
+    <script src="/qgis-act/js/clipboard/clipboard.min.js?1742805927" defer></script>
+    <script src="/qgis-act/js/perfect-scrollbar/perfect-scrollbar.min.js?1742805927" defer></script>
+    <script src="/qgis-act/js/theme.js?1742805927" defer></script>
   </body>
 </html>

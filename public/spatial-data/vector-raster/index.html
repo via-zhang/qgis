@@ -20,7 +20,7 @@
     <meta property="og:image" content="http://localhost:1313/qgis-act/spatial-data/vector-raster/id_features.png">
     <meta itemprop="name" content="Vector and Raster Data :: QGIS Activities">
     <meta itemprop="description" content="How to visualize vector and raster data in QGIS">
-    <meta itemprop="wordCount" content="1065">
+    <meta itemprop="wordCount" content="1063">
     <meta itemprop="image" content="http://localhost:1313/qgis-act/spatial-data/vector-raster/id_features.png">
     <meta itemprop="keywords" content="Activities">
     <title>Vector and Raster Data :: QGIS Activities</title>
@@ -28,17 +28,17 @@
     <link href="http://localhost:1313/qgis-act/spatial-data/vector-raster/index.html" rel="alternate" hreflang="en">
     <link href="http://localhost:1313/qgis-act/es/spatial-data/vector-raster/index.html" rel="alternate" hreflang="es">
     <link href="/qgis-act/spatial-data/vector-raster/index.xml" rel="alternate" type="application/rss+xml" title="Vector and Raster Data :: QGIS Activities"><link rel="icon" href="images/favicon.png" type="image/png">
-    <link href="/qgis-act/fonts/fontawesome/css/fontawesome-all.min.css?1742800058" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/qgis-act/fonts/fontawesome/css/fontawesome-all.min.css?1742800058" rel="stylesheet"></noscript>
-    <link href="/qgis-act/css/perfect-scrollbar/perfect-scrollbar.min.css?1742800058" rel="stylesheet">
-    <link href="/qgis-act/css/theme.css?1742800058" rel="stylesheet">
-    <link href="/qgis-act/css/format-html.css?1742800058" rel="stylesheet" id="R-format-style">
-    <link href="/qgis-act/css/auto-complete/auto-complete.min.css?1742800058" rel="stylesheet">
-    <script src="/qgis-act/js/auto-complete/auto-complete.min.js?1742800058" defer></script>
-    <script src="/qgis-act/js/lunr/lunr.min.js?1742800058" defer></script>
-    <script src="/qgis-act/js/lunr/lunr.stemmer.support.min.js?1742800058" defer></script>
-    <script src="/qgis-act/js/lunr/lunr.multi.min.js?1742800058" defer></script>
-    <script src="/qgis-act/js/lunr/lunr.en.min.js?1742800058" defer></script>
-    <script src="/qgis-act/js/search.js?1742800058" defer></script>
+    <link href="/qgis-act/fonts/fontawesome/css/fontawesome-all.min.css?1742805926" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/qgis-act/fonts/fontawesome/css/fontawesome-all.min.css?1742805926" rel="stylesheet"></noscript>
+    <link href="/qgis-act/css/perfect-scrollbar/perfect-scrollbar.min.css?1742805926" rel="stylesheet">
+    <link href="/qgis-act/css/theme.css?1742805926" rel="stylesheet">
+    <link href="/qgis-act/css/format-html.css?1742805926" rel="stylesheet" id="R-format-style">
+    <link href="/qgis-act/css/auto-complete/auto-complete.min.css?1742805926" rel="stylesheet">
+    <script src="/qgis-act/js/auto-complete/auto-complete.min.js?1742805926" defer></script>
+    <script src="/qgis-act/js/lunr/lunr.min.js?1742805926" defer></script>
+    <script src="/qgis-act/js/lunr/lunr.stemmer.support.min.js?1742805926" defer></script>
+    <script src="/qgis-act/js/lunr/lunr.multi.min.js?1742805926" defer></script>
+    <script src="/qgis-act/js/lunr/lunr.en.min.js?1742805926" defer></script>
+    <script src="/qgis-act/js/search.js?1742805926" defer></script>
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -48,7 +48,7 @@
       window.relearn.relBaseUri='..\/..\/..';
       window.relearn.absBaseUri='http:\/\/localhost:1313\/qgis-act';
       window.relearn.contentLangs=['en'];
-      window.relearn.index_js_url="/qgis-act/searchindex.en.js?1742800058";
+      window.relearn.index_js_url="/qgis-act/searchindex.en.js?1742805926";
       window.relearn.disableAnchorCopy=false;
       window.relearn.disableAnchorScrolling=false;
       window.relearn.disableInlineCopyToClipboard=false;
@@ -165,7 +165,7 @@
 <h3 id="download">Download</h3>
 <p>Click here to download the <strong>fires</strong> folder from Google Drive:
 <span class="btn cstyle interactive transparent"><a href="https://drive.google.com/drive/folders/1H1FcMVlTV2m5IdxUvTLFW6cKJTZ3YGxo?usp=drive_link" rel="external" target="_blank"><i class="fa-fw fas fa-download"></i> <span class="title">Download the Data</span></a></span></p>
-<p>Information about the data:</p>
+<p>About the data:</p>
 <table>
   <thead>
       <tr>
@@ -210,15 +210,22 @@
   </div>
 </details>
 <h3 id="add-to-qgis">Add to QGIS</h3>
-<p>Open a QGIS file and optionally add OpenStreetMap as the basemap and set the EPSG to 2229.</p>
+<p>Open a QGIS file and optionally add OpenStreetMap as the basemap and set the coordinate reference system (CRS) to EPSG:2229.
+
+
+<figure class="video">
+<video controls preload="metadata" width="100%"   >
+<source src="/qgis-act/spatial-data/vector-raster/1_load_data.mp4" type="video/mp4">
+</video>
+</figure></p>
 <ol>
 <li>Go to Layer &gt; Add Layer &gt; Add Vector Layer&hellip;</li>
 <li>Click the three dots &hellip; next to Vector Dataset(s)</li>
 <li>Find <strong>fires</strong> folder that you downloaded, go to the <strong>vector</strong> folder, and click and drag to select all 3 files. You can also select the first file, then press Shift while clicking the last file to select all 3</li>
 <li>Click &ldquo;Add&rdquo; and then &ldquo;Close&rdquo;</li>
 <li>The map should look like this, but you may see different colors or a different order
-<a href="#R-image-fc77c520eeb8459fcf50524ecc4793f9" class="lightbox-link"><img alt="Screenshot of QGIS with the data" class="lazy lightbox figure-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/load_data.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-fc77c520eeb8459fcf50524ecc4793f9"><img alt="Screenshot of QGIS with the data" class="lazy lightbox lightbox-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/load_data.png"></a></li>
+<a href="#R-image-087eb89c3b8f0789fb21760ef6b954c2" class="lightbox-link"><img alt="Screenshot of QGIS with the data" class="lazy lightbox figure-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/load_data.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-087eb89c3b8f0789fb21760ef6b954c2"><img alt="Screenshot of QGIS with the data" class="lazy lightbox lightbox-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/load_data.png"></a></li>
 </ol>
 
 <details open class=" box cstyle notices important">
@@ -231,9 +238,16 @@
   </div>
 </details>
 <h3 id="points">Points</h3>
-<p>Let&rsquo;s change the points of the fires to fire icons and filter to fires that have happened after 2024.</p>
+<p>Let&rsquo;s change the points to fire icons and filter to only show fires that have happened in 2024 or 2025.
+
+
+<figure class="video">
+<video controls preload="metadata" width="100%"   >
+<source src="/qgis-act/spatial-data/vector-raster/2_visualize_point.mp4" type="video/mp4">
+</video>
+</figure></p>
 <ol>
-<li>Right click the fire_points layer and select &ldquo;Filter&hellip;&rdquo;</li>
+<li>Right click the fire_points layer and left click &ldquo;Filter&hellip;&rdquo;</li>
 <li>In the text box below &ldquo;Provide Specific Filter Expression,&rdquo; paste this:</li>
 </ol>
 <div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>&#34;incident_date_created&#34; &gt; &#39;2024-01-01&#39;</code></pre></div>
@@ -244,25 +258,32 @@
 <li>Under &ldquo;Marker&rdquo; click on &ldquo;Simple Marker&rdquo;</li>
 <li>Change the &ldquo;Size&rdquo; from 2 to 5 to make the points larger</li>
 <li>Change the &ldquo;Fill color&rdquo; to red</li>
-<li>Next to Symbol layer type click where it says &ldquo;Simple Marker&rdquo; and change it to &ldquo;SVG Marker&rdquo;</li>
+<li>Next to &ldquo;Symbol layer type&rdquo; click where it says &ldquo;Simple Marker&rdquo; and change it to &ldquo;SVG Marker&rdquo;</li>
 <li>Scroll to the bottom and type &ldquo;fire&rdquo; in the search box under SVG Images</li>
 <li>Click on one of the fire icons that you like</li>
 <li>Click &ldquo;OK&rdquo;
-<a href="#R-image-da78950f334dcd676960c92ce9dd1ed5" class="lightbox-link"><img alt="Screenshot of QGIS with the fire points" class="lazy lightbox figure-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/fire_points.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-da78950f334dcd676960c92ce9dd1ed5"><img alt="Screenshot of QGIS with the fire points" class="lazy lightbox lightbox-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/fire_points.png"></a></li>
+<a href="#R-image-b43c92a733c7110c25e26d18f5361f21" class="lightbox-link"><img alt="Screenshot of QGIS with the fire points" class="lazy lightbox figure-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/fire_points.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b43c92a733c7110c25e26d18f5361f21"><img alt="Screenshot of QGIS with the fire points" class="lazy lightbox lightbox-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/fire_points.png"></a></li>
 </ol>
 <h4 id="view-information-about-fires">View Information About Fires</h4>
+
+
+<figure class="video">
+<video controls preload="metadata" width="100%"   >
+<source src="/qgis-act/spatial-data/vector-raster/3_view_data.mp4" type="video/mp4">
+</video>
+</figure>
 <ol>
-<li>Click the &ldquo;Identify Features&rdquo; icon at the top of QGIS <a href="#R-image-7e941e0051cd9293bf6b87b2857cc72b" class="lightbox-link"><img alt="Identify Features tool" class="lazy lightbox figure-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/id_icon.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-7e941e0051cd9293bf6b87b2857cc72b"><img alt="Identify Features tool" class="lazy lightbox lightbox-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/id_icon.png"></a>
-<a href="#R-image-4df2abdf3b2f56e0025081427c39b300" class="lightbox-link"><img alt="Screenshot of QGIS with the Identify Features tool" class="lazy lightbox figure-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/id_features.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-4df2abdf3b2f56e0025081427c39b300"><img alt="Screenshot of QGIS with the Identify Features tool" class="lazy lightbox lightbox-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/id_features.png"></a></li>
+<li>Click the &ldquo;Identify Features&rdquo; icon at the top of QGIS <a href="#R-image-c47b3c3c7114dedfa7c0f5bb763cc4e8" class="lightbox-link"><img alt="Identify Features tool" class="lazy lightbox figure-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/id_icon.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-c47b3c3c7114dedfa7c0f5bb763cc4e8"><img alt="Identify Features tool" class="lazy lightbox lightbox-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/id_icon.png"></a>
+<a href="#R-image-a99e6e6054d950f228881abb6268f4f2" class="lightbox-link"><img alt="Screenshot of QGIS with the Identify Features tool" class="lazy lightbox figure-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/id_features.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a99e6e6054d950f228881abb6268f4f2"><img alt="Screenshot of QGIS with the Identify Features tool" class="lazy lightbox lightbox-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/id_features.png"></a></li>
 <li>Left click on the fire_points layer to select it</li>
 <li>Click on any fire point on the map, and a tab will open with information about that fire. When using the Identify Features tool, you cannot use the mouse to move around the map, you can only click on the points</li>
-<li>Click the &ldquo;Pan Map&rdquo; icon at the top of QGIS to return to the default, so you can click and move around the map again <a href="#R-image-3f5aec593a8eac094c4af446a2a7e660" class="lightbox-link"><img alt="Identify Features tool" class="lazy lightbox figure-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/pan_map_icon.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-3f5aec593a8eac094c4af446a2a7e660"><img alt="Identify Features tool" class="lazy lightbox lightbox-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/pan_map_icon.png"></a>
-<a href="#R-image-395a1736ea6cbb0f0fa3bc9819638b45" class="lightbox-link"><img alt="Screenshot of QGIS with the Pan Map tool" class="lazy lightbox figure-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/pan_map.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-395a1736ea6cbb0f0fa3bc9819638b45"><img alt="Screenshot of QGIS with the Pan Map tool" class="lazy lightbox lightbox-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/pan_map.png"></a></li>
+<li>Click the &ldquo;Pan Map&rdquo; icon at the top of QGIS to return to the default, so you can click and move around the map again <a href="#R-image-2b92269db919cfcfd9d484d8603cdd61" class="lightbox-link"><img alt="Identify Features tool" class="lazy lightbox figure-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/pan_map_icon.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-2b92269db919cfcfd9d484d8603cdd61"><img alt="Identify Features tool" class="lazy lightbox lightbox-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/pan_map_icon.png"></a>
+<a href="#R-image-a5e7ea63655b846fac9057249436ce63" class="lightbox-link"><img alt="Screenshot of QGIS with the Pan Map tool" class="lazy lightbox figure-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/pan_map.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a5e7ea63655b846fac9057249436ce63"><img alt="Screenshot of QGIS with the Pan Map tool" class="lazy lightbox lightbox-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/pan_map.png"></a></li>
 </ol>
 
 <details open class=" box cstyle notices tip">
@@ -275,7 +296,14 @@
   </div>
 </details>
 <h3 id="lines">Lines</h3>
-<p>Let&rsquo;s change the thickness and opacity of the lines.</p>
+<p>Let&rsquo;s change the thickness and opacity of the lines.
+
+
+<figure class="video">
+<video controls preload="metadata" width="100%"   >
+<source src="/qgis-act/spatial-data/vector-raster/4_visualize_roads.mp4" type="video/mp4">
+</video>
+</figure></p>
 <ol>
 <li>Right click the roads.shp layer and select &ldquo;Properties&rdquo;</li>
 <li>Click on &ldquo;Symbology&rdquo; to the left if it is not already selected</li>
@@ -283,9 +311,9 @@
 <li>Change the opacity to 50.0% (or test other percentages)</li>
 <li>Change the Width to 1 (or test other widths)</li>
 <li>Click &ldquo;OK&rdquo;</li>
-<li>(Optional) If you want to change the order of the layers, you can move a layer by clicking and dragging it above or below the layer you want. For example, you can click the roads.shp layer and, while holding down your mouse, drag it down so that it is below the fire_points and fire_perimeters layers, but above OSM Standard
-<a href="#R-image-a7d7997ade5b67668df9510bb19878cc" class="lightbox-link"><img alt="Screenshot of QGIS with the roads" class="lazy lightbox figure-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/roads.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-a7d7997ade5b67668df9510bb19878cc"><img alt="Screenshot of QGIS with the roads" class="lazy lightbox lightbox-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/roads.png"></a></li>
+<li>(Optional) If you want to change the order of the layers, you can move a layer by clicking and dragging it. For example, you can click the roads.shp layer and, while holding down your mouse, drag it down so that it is below the fire_points and fire_perimeters layers, but above OSM Standard
+<a href="#R-image-65c7f7e70d77b2049ae6d8e944f0052d" class="lightbox-link"><img alt="Screenshot of QGIS with the roads" class="lazy lightbox figure-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/roads.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-65c7f7e70d77b2049ae6d8e944f0052d"><img alt="Screenshot of QGIS with the roads" class="lazy lightbox lightbox-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/roads.png"></a></li>
 </ol>
 
 <details open class=" box cstyle notices important">
@@ -298,15 +326,22 @@
   </div>
 </details>
 <h3 id="polygons">Polygons</h3>
-<p>Let&rsquo;s change the color and opacity of the burned areas.</p>
+<p>Let&rsquo;s change the color and opacity of the burned areas.
+
+
+<figure class="video">
+<video controls preload="metadata" width="100%"   >
+<source src="/qgis-act/spatial-data/vector-raster/5_visualize_polygons.mp4" type="video/mp4">
+</video>
+</figure></p>
 <ol>
 <li>Right click the fire_perimeters layer and select &ldquo;Properties&rdquo;</li>
 <li>Click on &ldquo;Symbology&rdquo; to the left if it is not already selected</li>
 <li>Change the color to red (or another color you want)</li>
 <li>Change the opacity to 20.0% (or test other percentages)</li>
 <li>Click &ldquo;OK&rdquo;
-<a href="#R-image-938b90812f820ca8518703c0998ec3c9" class="lightbox-link"><img alt="Screenshot of QGIS with the polygons" class="lazy lightbox figure-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/fire_perimeters.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-938b90812f820ca8518703c0998ec3c9"><img alt="Screenshot of QGIS with the polygons" class="lazy lightbox lightbox-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/fire_perimeters.png"></a></li>
+<a href="#R-image-5b5352ae6a17c9cf47ba84663c278468" class="lightbox-link"><img alt="Screenshot of QGIS with the polygons" class="lazy lightbox figure-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/fire_perimeters.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-5b5352ae6a17c9cf47ba84663c278468"><img alt="Screenshot of QGIS with the polygons" class="lazy lightbox lightbox-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/fire_perimeters.png"></a></li>
 </ol>
 <h2 id="raster-data">Raster Data</h2>
 <p>We will visualize satellite images from Sentinel-2 from before and after the Palisades Fire, a devastating fire that started burning Los Angeles on January 7, 2025.</p>
@@ -321,24 +356,31 @@
   </div>
 </details>
 <h3 id="add-to-qgis-1">Add to QGIS</h3>
+
+
+<figure class="video">
+<video controls preload="metadata" width="100%"   >
+<source src="/qgis-act/spatial-data/vector-raster/6_visualize_raster.mp4" type="video/mp4">
+</video>
+</figure>
 <ol>
 <li>Go to Layer &gt; Add Layer &gt; Add Raster Layer&hellip;</li>
 <li>Click the three dots &hellip; next to Raster dataset(s)</li>
 <li>Find <strong>fires</strong> folder that you downloaded, go to the <strong>raster</strong> folder, and click and drag to select all 3 files. You can also select the first file, then press Shift while clicking the last file to select all 3</li>
 <li>Click &ldquo;Add&rdquo; and then &ldquo;Close&rdquo;</li>
-<li>Optional: Move <strong>satellite_mar25</strong> to the top, <strong>satellite_jan25</strong> below that, and lastly <strong>satellite_nov24</strong> below that</li>
 <li>Move the roads.shp, fire_perimeteres, and fire_points above all 3 satellite layers</li>
+<li>Optional: Move <strong>satellite_mar25</strong> above the other two satellite layers, <strong>satellite_jan25</strong> below that, and lastly <strong>satellite_nov24</strong></li>
 <li>Right click the first satellite layer (<strong>satellite_mar25</strong>) and click the first option, &ldquo;Zoom to Layer(s)&rdquo;</li>
 <li>The map should look like below
-<a href="#R-image-7b18e6cc7ff8e3e06230e54c80f15996" class="lightbox-link"><img alt="Screenshot of QGIS with the satellite images" class="lazy lightbox figure-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/add_raster.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-7b18e6cc7ff8e3e06230e54c80f15996"><img alt="Screenshot of QGIS with the satellite images" class="lazy lightbox lightbox-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/add_raster.png"></a></li>
+<a href="#R-image-8405ad9105da24f31b3d614d6d1118d5" class="lightbox-link"><img alt="Screenshot of QGIS with the satellite images" class="lazy lightbox figure-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/add_raster.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8405ad9105da24f31b3d614d6d1118d5"><img alt="Screenshot of QGIS with the satellite images" class="lazy lightbox lightbox-image" loading="lazy" src="/qgis-act/spatial-data/vector-raster/add_raster.png"></a></li>
 </ol>
 <h3 id="explore-before-and-after-the-fire">Explore Before and After the Fire</h3>
 <ol start="9">
 <li>Click the check box next to the fire_perimeters to make the layer invisible. This makes it easier to see the satellite image</li>
 <li>Click the check box next to <strong>satellite_mar25</strong> to compare it with the satellite image from January 2025 when the Palisades fire was actively burning. You can click the check box multiple times to turn it off and on again to compare how the land looked between January and March</li>
 <li>Make the <strong>satellite_mar25</strong> layer invisible by unchecking it again if needed. Now, only <strong>satellite_jan25</strong> and <strong>satellite_nov24</strong> should be checked</li>
-<li>Click the check box next to <strong>satellite_jan25</strong> to compare it with the satellite image from November 2024 before the Palisades fire started burning. Like before, you can click the check box multiple times to turn it off and on again to compare how the land looked.</li>
+<li>Click the check box next to <strong>satellite_jan25</strong> to compare it with the satellite image from November 2024 before the Palisades fire started burning. Like before, you can click the check box multiple times to turn it off and on again to compare how the land looked</li>
 </ol>
 
 <details class=" box cstyle notices note expand">
@@ -452,8 +494,8 @@
 <div id="R-footer"><p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p></div>
       </div>
     </aside>
-    <script src="/qgis-act/js/clipboard/clipboard.min.js?1742800058" defer></script>
-    <script src="/qgis-act/js/perfect-scrollbar/perfect-scrollbar.min.js?1742800058" defer></script>
-    <script src="/qgis-act/js/theme.js?1742800058" defer></script>
+    <script src="/qgis-act/js/clipboard/clipboard.min.js?1742805926" defer></script>
+    <script src="/qgis-act/js/perfect-scrollbar/perfect-scrollbar.min.js?1742805926" defer></script>
+    <script src="/qgis-act/js/theme.js?1742805926" defer></script>
   </body>
 </html>
