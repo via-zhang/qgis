@@ -21,3 +21,7 @@ defaultContentLanguage = 'en'
 [params]
   themeVariant = ['blue', 'zen-dark']
   hideAuthorDate = true
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
