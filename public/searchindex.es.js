@@ -5,7 +5,7 @@ var relearn_searchindex = [
     "description": "Datos vectoriales y rasterizadosCómo visualizar datos vectoriales y ráster en QGIS",
     "tags": [],
     "title": "Spatial Data",
-    "uri": "/qgis/es/spatial-data/index.html"
+    "uri": "/qgis-act/es/spatial-data/index.html"
   },
   {
     "breadcrumb": "",
@@ -13,7 +13,7 @@ var relearn_searchindex = [
     "description": "Los Sistemas de Información Geográfica (SIG) son herramientas que nos permiten visualizar datos espaciales—datos con una ubicación—en mapas. QGIS es un software de código abierto en el que nos centraremos en estas actividades.",
     "tags": [],
     "title": "Actividades QGIS",
-    "uri": "/qgis/es/index.html"
+    "uri": "/qgis-act/es/index.html"
   },
   {
     "breadcrumb": "Actividades QGIS \u003e  Categorías",
@@ -21,7 +21,7 @@ var relearn_searchindex = [
     "description": "",
     "tags": [],
     "title": "Categoría :: Activities",
-    "uri": "/qgis/es/categories/activities/index.html"
+    "uri": "/qgis-act/es/categories/activities/index.html"
   },
   {
     "breadcrumb": "Actividades QGIS",
@@ -29,7 +29,7 @@ var relearn_searchindex = [
     "description": "",
     "tags": [],
     "title": "Categorías",
-    "uri": "/qgis/es/categories/index.html"
+    "uri": "/qgis-act/es/categories/index.html"
   },
   {
     "breadcrumb": "Actividades QGIS \u003e  Spatial Data",
@@ -37,7 +37,7 @@ var relearn_searchindex = [
     "description": "Cómo visualizar datos vectoriales y ráster en QGIS",
     "tags": [],
     "title": "Datos vectoriales y rasterizados",
-    "uri": "/qgis/es/spatial-data/vector-raster/_vector-raster/index.html"
+    "uri": "/qgis-act/es/spatial-data/vector-raster/index.html"
   },
   {
     "breadcrumb": "Actividades QGIS \u003e  Categorías",
@@ -45,7 +45,7 @@ var relearn_searchindex = [
     "description": "",
     "tags": [],
     "title": "Categoría :: Reference",
-    "uri": "/qgis/es/categories/reference/index.html"
+    "uri": "/qgis-act/es/categories/reference/index.html"
   },
   {
     "breadcrumb": "Actividades QGIS",
@@ -53,6 +53,6 @@ var relearn_searchindex = [
     "description": "",
     "tags": [],
     "title": "Etiquetas",
-    "uri": "/qgis/es/tags/index.html"
+    "uri": "/qgis-act/es/tags/index.html"
   }
 ]

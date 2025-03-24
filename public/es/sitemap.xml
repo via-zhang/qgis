@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/qgis/es/spatial-data/index.html</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/qgis/spatial-data/index.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/qgis/spatial-data/index.html" />
-    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:1313/qgis/es/spatial-data/index.html" />
+    <loc>http://localhost:1313/qgis-act/es/spatial-data/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/qgis-act/spatial-data/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/qgis-act/spatial-data/index.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:1313/qgis-act/es/spatial-data/index.html" />
   </url>
   <url>
-    <loc>http://localhost:1313/qgis/es/index.html</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/qgis/index.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/qgis/index.html" />
-    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:1313/qgis/es/index.html" />
+    <loc>http://localhost:1313/qgis-act/es/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/qgis-act/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/qgis-act/index.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:1313/qgis-act/es/index.html" />
   </url>
   <url>
-    <loc>http://localhost:1313/qgis/es/categories/activities/index.html</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/qgis/categories/activities/index.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/qgis/categories/activities/index.html" />
-    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:1313/qgis/es/categories/activities/index.html" />
+    <loc>http://localhost:1313/qgis-act/es/categories/activities/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/qgis-act/categories/activities/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/qgis-act/categories/activities/index.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:1313/qgis-act/es/categories/activities/index.html" />
   </url>
   <url>
-    <loc>http://localhost:1313/qgis/es/categories/index.html</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/qgis/categories/index.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/qgis/categories/index.html" />
-    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:1313/qgis/es/categories/index.html" />
+    <loc>http://localhost:1313/qgis-act/es/categories/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/qgis-act/categories/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/qgis-act/categories/index.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:1313/qgis-act/es/categories/index.html" />
   </url>
   <url>
-    <loc>http://localhost:1313/qgis/es/spatial-data/vector-raster/_vector-raster/index.html</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/qgis/spatial-data/vector-raster/_vector-raster/index.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/qgis/spatial-data/vector-raster/_vector-raster/index.html" />
-    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:1313/qgis/es/spatial-data/vector-raster/_vector-raster/index.html" />
+    <loc>http://localhost:1313/qgis-act/es/spatial-data/vector-raster/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/qgis-act/spatial-data/vector-raster/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/qgis-act/spatial-data/vector-raster/index.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:1313/qgis-act/es/spatial-data/vector-raster/index.html" />
   </url>
   <url>
-    <loc>http://localhost:1313/qgis/es/categories/reference/index.html</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/qgis/categories/reference/index.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/qgis/categories/reference/index.html" />
-    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:1313/qgis/es/categories/reference/index.html" />
+    <loc>http://localhost:1313/qgis-act/es/categories/reference/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/qgis-act/categories/reference/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/qgis-act/categories/reference/index.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:1313/qgis-act/es/categories/reference/index.html" />
   </url>
   <url>
-    <loc>http://localhost:1313/qgis/es/tags/index.html</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/qgis/tags/index.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/qgis/tags/index.html" />
-    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:1313/qgis/es/tags/index.html" />
+    <loc>http://localhost:1313/qgis-act/es/tags/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/qgis-act/tags/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/qgis-act/tags/index.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:1313/qgis-act/es/tags/index.html" />
   </url>
 </urlset>

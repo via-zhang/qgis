@@ -1,4 +1,4 @@
-baseURL = 'https://via-zhang.github.io/qgis'
+baseURL = 'https://via-zhang.github.io/qgis-act'
 title = 'QGIS Activities'
 theme = 'hugo-theme-relearn'
 

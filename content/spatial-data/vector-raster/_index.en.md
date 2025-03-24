@@ -4,7 +4,7 @@ title = 'Vector and Raster Data'
 description = 'How to visualize vector and raster data in QGIS'
 +++
 
-{{% button href="https://via-zhang.github.io/qgis/es/spatial-data/vector-raster/_vector-raster/index.html" style="blue" %}}Versión en español{{% /button %}}
+{{% button href="https://via-zhang.github.io/qgis-act/es/spatial-data/vector-raster/index.html" style="blue" %}}Versión en español{{% /button %}}
 
 ## Load the Data
 
@@ -27,13 +27,12 @@ We will visualize fire points, road lines, and burned areas from fires in Los An
 > "Vector data" refers to locations, places, or other parts of the Earth's surface that are stored as points, lines, and polygons.
 
 ### Add to QGIS
-Open the QGIS file you created in Week 1, which has OpenStreetMap as the basemap and EPSG:2229.
+Open a QGIS file and optionally add OpenStreetMap as the basemap and set the EPSG to 2229.
 1. Go to Layer > Add Layer > Add Vector Layer...
 2. Click the three dots ... next to Vector Dataset(s)
 3. Find **fires** folder that you downloaded, go to the **vector** folder, and click and drag to select all 3 files. You can also select the first file, then press Shift while clicking the last file to select all 3
 4. Click "Add" and then "Close"
-5. Click on your bookmark under Spatial Bookmarks > User Bookmarks > LA to zoom to LA
-6. The map should look like this, but you may see different colors or a different order
+5. The map should look like this, but you may see different colors or a different order
 ![Screenshot of QGIS with the data](load_data.png)
 
 > [!IMPORTANT]
@@ -50,11 +49,11 @@ Let's change the points of the fires to fire icons and filter to fires that have
 4. Right click the fire_points layer and select "Properties"
 5. Click on "Symbology" to the left
 6. Under "Marker" click on "Simple Marker"
-7. Change the "Width" from 2 to 5 to make the points larger. This should change the Height automatically to 5 too
-8. Next to Symbol layer type click where it says "Simple Marker" and change it to "SVG Marker"
-9. Scroll to the bottom and type "fire" in the search box under SVG Images
-10. Click on one of the fire icons that you like
-11. Scroll back up, and change the "Fill color" to red
+7. Change the "Size" from 2 to 5 to make the points larger
+8. Change the "Fill color" to red
+9. Next to Symbol layer type click where it says "Simple Marker" and change it to "SVG Marker"
+10. Scroll to the bottom and type "fire" in the search box under SVG Images
+11. Click on one of the fire icons that you like
 12. Click "OK"
 ![Screenshot of QGIS with the fire points](fire_points.png)
 
@@ -68,7 +67,6 @@ Let's change the points of the fires to fire icons and filter to fires that have
 
 > [!TIP]
 > The "Identify Features" tool only works on the layer that you have selected (by left clicking on it). For example, we selected the fire_points layer to view more information about each fire point. You can also left click the roads.shp to select it, and then click on any road to show information about it. You can do this for the fire_perimeters layer as well.
-
 
 
 ### Lines

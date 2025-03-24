@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Actividades QGIS</title>
-    <link>http://localhost:1313/qgis/es/index.html</link>
+    <link>http://localhost:1313/qgis-act/es/index.html</link>
     <description>Los Sistemas de Información Geográfica (SIG) son herramientas que nos permiten visualizar datos espaciales—datos con una ubicación—en mapas. QGIS es un software de código abierto en el que nos centraremos en estas actividades.</description>
     <generator>Hugo</generator>
     <language>es</language>
-    <atom:link href="http://localhost:1313/qgis/es/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/qgis-act/es/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spatial Data</title>
-      <link>http://localhost:1313/qgis/es/spatial-data/index.html</link>
+      <link>http://localhost:1313/qgis-act/es/spatial-data/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/qgis/es/spatial-data/index.html</guid>
+      <guid>http://localhost:1313/qgis-act/es/spatial-data/index.html</guid>
       <description>Datos vectoriales y rasterizadosCómo visualizar datos vectoriales y ráster en QGIS</description>
     </item>
   </channel>
